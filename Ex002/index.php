@@ -8,11 +8,11 @@
 </head>
 <body>
     <?php
-    $idade = "18";
-    echo "se você tem " . $idade . (($idade>=18 && $idade<18)?" você é maior de idade":" você é menor de idade"); //operador unario
+    // $idade = "18";
+    // echo "se você tem " . $idade . (($idade>=18 && $idade<18)?" você é maior de idade":" você é menor de idade"); //operador unario
 
-    // $idade = $_GET["idade"];
-    // echo "se você tem " . $idade . (($idade>=18 && $idade<18)?" você é maior de idade":" você é menor de idade");
+    $idade = $_GET["idade"];
+    echo "se você tem " . $idade . (($idade>=18 && $idade<18)?" você é maior de idade":" você é menor de idade"); //operador unario
     ?>
 </body>
 </html>
