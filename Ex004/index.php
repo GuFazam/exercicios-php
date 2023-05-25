@@ -9,10 +9,13 @@
 <body>
     <?php
     // $numero = "25";
-    // echo "este numero é " . $numero . (($num/2 && $num/1)?" par":" impar"); //operador unario
+    // echo "este numero é " . $numero . (($num/2 && $num/1)?" par":" impar");
+    // echo "este numero é " . $numero . (($num%2 || $num%1)?" par":" impar"); //operador unario
 
-    $numero = $_GET["num"];
-    echo "este numero é " . $numero . (($num/2 && $num/1)?" par":" impar"); //operador unario
+    $numero = $_GET["1"];
+    if ($num % 1==0){
+        echo "este numero é par";
+    } else echo "este numero é impar";
     ?>
 </body>
 </html>
