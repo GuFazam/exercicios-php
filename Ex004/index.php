@@ -10,12 +10,14 @@
     <?php
     // $numero = "25";
     // echo "este numero é " . $numero . (($num/2 && $num/1)?" par":" impar");
-    // echo "este numero é " . $numero . (($num%2 || $num%1)?" par":" impar"); //operador unario
+    // echo "este numero é " . $numero . (($num%2 || $num%1)?" par":" impar");
 
-    $numero = $_GET["1"];
-    if ($num % 1==0){
+    $numero = $_GET["numero"];
+    if ($numero % 2 == 0){
         echo "este numero é par";
-    } else echo "este numero é impar";
+    } else {
+        echo "este numero é impar";
+    } 
     ?>
 </body>
 </html>
