@@ -7,7 +7,7 @@
     <title>Ex013</title>
 </head>
 <body>
-<form method="POST">
+<form method="post">
         <label>Digite um número</label>
         <input type="number" name="numero"><br>
         <button type="submit">tabuada</button>

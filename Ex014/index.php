@@ -31,7 +31,8 @@
     if (isset($_POST["nome"])) {
         $nome = $_POST["nome"];
         $idade = $_POST["idade"];
-    } else {
+    } 
+    else {
         $nome = "";
         $idade = "";
     }
