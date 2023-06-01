@@ -4,7 +4,7 @@ echo "Existem " . count($cores) . " itens " . "neste array";
 
 //usando foreach
 
-$cores = array("vermelho", "amerelo", "azul", "verde", "roxo");
+// $cores = array("vermelho", "amerelo", "azul", "verde", "roxo");
 
 // Inicializar uma variável contador
 #$quantidade = 0;
