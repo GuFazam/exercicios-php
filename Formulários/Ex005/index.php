@@ -7,7 +7,10 @@
     <title>Ex005</title>
 </head>
 <body>
-    <?php
-    ?>
+<form method="POST" action="soma.php">
+        <label for="numeros">Digite uma série de números separados por vírgula:</label><br>
+        <input type="text" name="numeros" id="numeros"><br>
+        <input type="submit" value="Calcular Soma">
+    </form>
 </body>
 </html>
